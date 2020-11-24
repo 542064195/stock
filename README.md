@@ -6,7 +6,7 @@
 ## 使用 Composer 安装:
 
 ```shell
-$ composer require liachage/stock -vvv
+$ composer require liachange/stock -vvv
 生成数据库迁移文件
 php artisan vendor:publish --provider="Liachage\Stock\StockServiceProvider" --tag="migrations"
 生成配置信息
