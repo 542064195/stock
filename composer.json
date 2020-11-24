@@ -1,0 +1,17 @@
+{
+    "name": "liachange\/stock",
+    "description": "A stock SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liachange",
+            "email": "caojian816@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Liachange\\Stock\\": "src"
+        }
+    }
+}
