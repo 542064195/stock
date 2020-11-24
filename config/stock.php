@@ -8,7 +8,7 @@ return [
         * 数据模型
         */
 
-        'stock' => Liachage\Stock\Models\Stock::class,
+        'stock' => Liachange\Stock\Models\Stock::class,
     ],
 
     'table_names' => [

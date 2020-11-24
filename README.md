@@ -8,9 +8,9 @@
 ```shell
 $ composer require liachange/stock -vvv
 生成数据库迁移文件
-php artisan vendor:publish --provider="Liachage\Stock\StockServiceProvider" --tag="migrations"
+php artisan vendor:publish --provider="liachange\stock\StockServiceProvider" --tag="migrations"
 生成配置信息
-php artisan vendor:publish --provider="Liachage\Stock\StockServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Liachange\Stock\StockServiceProvider" --tag="config"
 ```
 ## 目录结构
     stock/
@@ -32,7 +32,7 @@ php artisan vendor:publish --provider="Liachage\Stock\StockServiceProvider" --ta
         └── .gitkeep
 ## 在 Laravel 中使用
 
-    use Liachage\Stock\Models\Stock;
+    use Liachange\Stock\Models\Stock;
 
     //减少库存
     $array = ['sku_id' => 1, 'warehouse_id' => 1];

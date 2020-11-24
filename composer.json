@@ -13,5 +13,12 @@
         "psr-4": {
             "Liachange\\Stock\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Liachange\\Stock\\StockServiceProvider"
+            ]
+        }
     }
 }
