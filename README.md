@@ -8,7 +8,7 @@
 ```shell
 $ composer require liachange/stock -vvv
 生成数据库迁移文件
-php artisan vendor:publish --provider="liachange\stock\StockServiceProvider" --tag="migrations"
+php artisan vendor:publish --provider="Liachange\Stock\StockServiceProvider" --tag="migrations"
 生成配置信息
 php artisan vendor:publish --provider="Liachange\Stock\StockServiceProvider" --tag="config"
 ```
